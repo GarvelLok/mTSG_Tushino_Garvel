@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{1A6B1DAE169A45D3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/mTSG_Character_RHS_AFRF_Unarmed.et" {
+ coords 1123.081 14.629 5961.495
+}
+SCR_ChimeraCharacter : "{2F2E4EB34A973755}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/mTSG_Character_RHS_AFRF_Rifleman.et" {
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_sIconBoneName "Стрелок"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{20CFD20350444288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_rifleman.et"
+    }
+   }
+  }
+ }
+ coords 1123.209 14.345 5966.282
+}
+SCR_ChimeraCharacter : "{811FB9635C55D389}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/mTSG_Character_RHS_AFRF_Armored.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0F51446ED5B52D97}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Vkpo3.0/Helmet_LShZ_6m2_emr_VKPO3.0_4.et"
+    }
+    LoadoutSlotInfo Back {
+     PivotID "scene_root"
+     Name "Backpack"
+     AreaType LoadoutBackpackArea "{5A68E3332875E6B7}" {
+     }
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62AD73634B5F2BE7}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 1118.931 13.756 5965.418
+}

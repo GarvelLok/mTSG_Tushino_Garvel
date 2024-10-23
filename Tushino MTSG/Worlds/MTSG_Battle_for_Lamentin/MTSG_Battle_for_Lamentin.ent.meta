@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B36D037CCE80CF26}Worlds/MTSG_Battle_for_Lamentin/MTSG_Battle_for_Lamentin.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

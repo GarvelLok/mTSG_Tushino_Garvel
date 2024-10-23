@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{1A6B1DAE169A45D3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/mTSG_Character_RHS_AFRF_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0F51446ED5B52D97}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Vkpo3.0/Helmet_LShZ_6m2_emr_VKPO3.0_4.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62AD73634B5F2BE7}" {
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{FEF9FA4072013B5B}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01_base.et" "{FEF9FA4072013B5B}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01_base.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62AD7363A26C4103}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62AD7363877AA11E}" {
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,33 @@
+SCR_AIWorld {
+ coords 1274.074 72.504 5823.21
+}
+PerceptionManager PerceptionManager1 {
+ coords 1304.798 36.911 5824.338
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 1165.948 8.235 5839.631
+ {
+  SCR_FactionManager "62AE9DA9217898B5" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+    }
+    SCR_Faction "{56DEAC40D132400B}" {
+    }
+    SCR_Faction "{607AA5C7A94496DA}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5978B9CE6585BBE8}" {
+    }
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+    }
+    SCR_Faction "{623962205CE2B89C}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+ }
+}
